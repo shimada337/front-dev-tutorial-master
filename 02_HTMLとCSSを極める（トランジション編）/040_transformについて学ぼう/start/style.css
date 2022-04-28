@@ -3,5 +3,11 @@
   height: 100px;
   margin: 0 auto;
   background-color: orangered;
+  -webkit-transform: skew(30deg);
+          transform: skew(30deg);
+  -webkit-transform: scale(2, 1);
+          transform: scale(2, 1);
+  -webkit-transform: center center;
+          transform: center center;
 }
 /*# sourceMappingURL=style.css.map */
