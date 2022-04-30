@@ -10,6 +10,12 @@ body {
   height: 100px;
   background-color: $cBlack;
   animation: sk-bouncedelay 1.4s;
+  animation-timing-function: ease;
+  // animation-delay: 3s; //遅延時間
+  animation-iteration-count: 1; //繰り返し
+  // animation-direction: alternate-reverse; //動き 100%の状態から0％へ
+  // animation-fill-mode: forwards; //アニメーションの最後　fowardsでアニメーション終了状態
+  // animation-play-state: paused; //アニメーションを途中で止める
 }
 
 @keyframes sk-bouncedelay {
