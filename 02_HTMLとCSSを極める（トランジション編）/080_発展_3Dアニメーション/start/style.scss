@@ -21,6 +21,12 @@ $cBlack: black;
     transform-style: preserve-3d;
     perspective: 300px;
 
+    & span {
+      display: inline-block;
+      transform: translateZ(20px);
+
+    }
+
     &::before {
       content: '';
       display: inline-block;
@@ -33,7 +39,7 @@ $cBlack: black;
       transform: rotateX(90deg);
       transition: all 0.3s;
       transform-origin: top center;
-      z-index: -1;
+      // z-index: -1;
       opacity: 0;
     }
 
